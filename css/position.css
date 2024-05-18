@@ -4,25 +4,6 @@
     padding-bottom: 50 px; 
     background-color: #f4f4fd;;
 }
-
-.review-sections-styles {
-    padding: 120px 0;
-}
-
-.review-styles {
-    margin-bottom: 72px;
-}
-
-.review-list {
-    display: flex;
-    gap: 24px;
-}
-
-.review-items {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
 .employer-name {
     padding: 32px 0;
 }
@@ -105,11 +86,6 @@ height: 120px;
     padding-top: 50 px;
     padding-bottom: 50 px; 
 }
-
-
-
-
-
 /* ===== COMMON STYLES ===== */
 ul, 
 ol {
@@ -264,7 +240,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px;
 }
-
 
 .menu-link {
     font-family: "Roboto", sans-serif;
@@ -460,6 +435,24 @@ color: #434455;
 /* ====== Review ===== */
 
 .review-sections-styles {
+    padding: 120px 0;
+}
+
+.review-styles {
+    margin-bottom: 72px;
+}
+
+.review-list {
+    display: flex;
+    gap: 24px;
+}
+
+.review-items {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.review-sections-styles {
     background-color: #F4F4FD; 
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -631,4 +624,8 @@ max-width: 264px;
 .footer-social-media-item {
     width: 40px;
     height: 40px;
+}
+
+.footer-container-social-media {
+    
 }
