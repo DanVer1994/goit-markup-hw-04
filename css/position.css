@@ -90,6 +90,8 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+font-style: normal;
+    margin-left: auto;
 }
 
 .address-styles-items {
@@ -169,13 +171,13 @@ letter-spacing: 0.02em;
 
 .menu-link {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
     display: block; 
     letter-spacing: 0.02em;
     padding: 24px 0;
-    color: #404bbf;
+    color: #2e2f42;
     position: relative; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -216,15 +218,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* ===== HERO STYLES ===== */
 
 .main-text {
-    font-family: roboto; 
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center; 
-    letter-spacing: 0.02em;
-    color: #FFFFFF; 
-    background-color: #4D5AE5; 
-    margin-bottom: 72px;
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
 }
 
 .hero-back-color {
@@ -269,6 +269,7 @@ color: #fff;
 .hero-content-wrapper {
     display: flex;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-styles {
